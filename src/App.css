@@ -1,0 +1,97 @@
+.device {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  background: #232326;
+  border: 4px solid #17171A;
+  border-radius: 10px;
+  padding: 22px 22px 26px;
+  box-shadow: 10px 10px 0 #17171A;
+  font-family: "Space Mono", monospace;
+  margin: 60px auto;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.brand {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: #ECE7D8;
+  text-transform: uppercase;
+}
+
+.bolts {
+  display: flex;
+  gap: 6px;
+}
+
+.bolt {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #3a3a3f;
+  border: 1px solid #000;
+}
+
+.screen {
+  background: #0d0d0c;
+  border: 3px solid #17171A;
+  border-radius: 4px;
+  padding: 18px 10px;
+  text-align: center;
+}
+
+.value {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 58px;
+  letter-spacing: 0.06em;
+  color: #FFB020;
+  text-shadow: 0 0 10px rgba(255, 176, 32, 0.55);
+}
+
+.screen-label {
+  margin-top: 8px;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  color: #6b4f16;
+  text-transform: uppercase;
+}
+
+.pair {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 58px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
+  color: #17171A;
+  background: #ECE7D8;
+  border: 3px solid #17171A;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0 #17171A;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.btn.plus {
+  background: #C7F464;
+}
+
+.btn:active {
+  transform: translate(5px, 5px);
+  box-shadow: 0 0 0 #17171A;
+}
